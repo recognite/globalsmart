@@ -1,0 +1,72 @@
+body
+{
+	background:white;
+	padding: 70px 20px 20px 20px;
+}
+
+.active{
+	/*background-color: #9BCE01;*/
+	background-color: #00BFFF;
+}
+
+.container {
+	/*background-color: lightblue;*/
+}
+
+.wigw {
+	background-color: #2994FF;
+}
+
+.wcid {
+	background-color: #FFCC00;
+}
+
+.fun {
+	background-color: #9BCE01;
+}
+
+.footer {
+	text-align: center;	
+}
+
+.navbar-inverse {
+	background-color: #0059B2;
+	color: #FFFFFF;
+}
+
+div#mapbox {
+	position: relative;
+}
+
+img[usemap] {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	width: auto;
+	position: relative;
+}
+
+.display {
+    background-color: #fffbc6;	/* pale yellow colour */
+    color: #000000;
+	border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    display: none;
+	position: absolute;
+}
+
+a.closeX {
+    position: absolute;
+    right: 3px; 
+	top: 3px; 
+	width:20px;
+    background-color: #fffbc6;	/* pale yellow colour */
+	color: #cc0000;	/* red colour */
+    padding-left: 3px; 
+	padding-top: 1px;
+    cursor: pointer; 
+    font-size: 16px; 
+	font-weight: bold;
+}
